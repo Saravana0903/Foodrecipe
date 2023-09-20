@@ -1,0 +1,14 @@
+.signup-con{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.signin-con{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}                       
+

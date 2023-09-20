@@ -1,0 +1,26 @@
+.product-con{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    box-shadow:2px 1px 1px 5px rgb(222, 227, 233);
+    background-image: linear-gradient(to bottom,#b9c9f0,#b993ba);
+    border-radius:10px;
+    transition: transform .4s;
+}
+.card-des{
+    color:#323f4b;
+    font-family:"Poppins";
+}
+.pro-icon{
+    height:200px;
+    width:200px;
+    border-radius:10px;
+}
+.label-text{
+    color:whitesmoke;
+    font-family:"Roboto";
+}
+.product-con:hover{
+    transform:scale(1.05);
+}

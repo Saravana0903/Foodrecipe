@@ -1,0 +1,14 @@
+.bg-con{
+    background-image:url("https://e7.pngegg.com/pngimages/736/269/png-clipart-food-background-food-fruit-thumbnail.png");
+    background-size:cover;
+    height:100vh;
+    overflow-y:auto;
+}
+.main-head{
+    animation:10 2;
+}
+.home-img{
+    width:400px;
+    height:300px;
+    border-radius:10px;
+}

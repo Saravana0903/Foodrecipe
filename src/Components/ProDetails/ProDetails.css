@@ -1,0 +1,90 @@
+.detail-con{
+   display:flex;
+   flex-direction:column;
+   /*align-items:center;*/
+   justify-content:center;
+   /*bg color */
+}
+h1{
+    color:#2d2e2e;
+    font-size:30px;
+    font-family:"Open Sans";
+    font-weight:bold;
+}
+p{
+    color:rgb(95, 80, 80);
+    font-size:20px;
+    font-family:"Poppins";
+}
+.left-con-img{
+    border-radius:10px;
+    height:200px;
+    width:auto;
+}
+.slide-con{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+}
+.label-head{
+    color:aliceblue;
+    font-family:'Roboto Mono';
+}
+.pro-det-con{
+    background-image:linear-gradient(to right,#828b94,#b8c6d4);
+    overflow-y:auto;
+}
+
+.inp-ele{
+    height:40px;
+    width:auto;
+    border:None;
+    border-top-left-radius:8px;
+    border-bottom-left-radius:8px;
+}
+.copy-icon{
+    height:30px;
+    width:25px;
+}
+.copy-link-button{
+    outline:none;
+    border:none;
+    padding-top:6px;
+    border-left:1px solid grey;
+}
+.label-con{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+.ingredient-img{
+    height:220px;
+    width:100%;
+    border-radius:20px;
+}
+.dish-ele{
+    color:#323f4b;
+    font-size:24px;
+    font-family:"Roboto";
+    font-weight:bold;
+}
+table{
+    border:2px solid #96bbeb;
+    width:100%;
+}
+.header{
+    background-color:#cee7f2;
+}
+.label-box{
+    border:1px solid lightblue;
+    border-radius:9px;
+    outline:none;
+    background-color:#4f70c2;
+    color:#323f4b;
+}
+.label-box:hover{
+    background-color:#aae34f;
+    color:azure;
+}
